@@ -45,6 +45,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.REMOTE_PORT }}
           script: |
-            rm -rf /home/ubuntu/devops 
+            rm -rf /home/ubuntu/demon
             git clone https://github.com/eunjooNine/demon.git
-            bash /home/ubuntu/devops/deployment.sh
+            bash /home/ubuntu/demon/deployment.sh
