@@ -1,5 +1,5 @@
 spring_pid=`ps -ef | grep demo | grep -v grep | awk -F " " '{print $2}'`
-
+echo $spring_pid
 if [ $spring_pid ]
 then
    echo "실행중인 백엔드 프로세스 중료하는 중..."
