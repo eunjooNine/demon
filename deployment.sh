@@ -1,6 +1,3 @@
-#!/bin/bash
-
-
 spring_pid=`ps -ef | grep demo | grep -v grep | awk -F " " '{print $2}'`
 
 if [ $spring_pid ]

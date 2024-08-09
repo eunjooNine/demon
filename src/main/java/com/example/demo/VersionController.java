@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class VersionController {
     @RequestMapping(method = RequestMethod.GET, value = "/version")
     public ResponseEntity<String> getVersion() {
-        return ResponseEntity.ok("야 잘해라");
+        return ResponseEntity.ok("야 미쳤니?");
     }
 }
